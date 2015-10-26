@@ -4,12 +4,17 @@
   "description": "Live Coding TV chat bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/_mocha --require babel/register"
   },
   "author": "Owen Conti <owen@ohseemedia.com>",
   "license": "ISC",
   "dependencies": {
+    "babel": "^5.8.29",
+    "chai": "^3.4.0",
+    "dam": "^0.3.5",
     "express": "^4.13.3",
+    "faker": "^3.0.1",
+    "mocha": "^2.3.3",
     "moment": "^2.10.6",
     "node-persist": "0.0.6",
     "node-xmpp": "^1.0.2",

@@ -26,6 +26,10 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+# Don't show npm debug logs
+npm-debug.log
+
+
 # Don't show our credentials to anyone
 credentials.js
 
