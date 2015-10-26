@@ -31,7 +31,7 @@ npm-debug.log
 
 
 # Don't show our credentials to anyone
-credentials.js
+./credentials.js
 
 # Don't store the contents of the brain in the repo
 brain
